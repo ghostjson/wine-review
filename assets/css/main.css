@@ -100,3 +100,13 @@ section .card .reviews{
 section .card .star-rating{
   color: var(--orange);
 }
+
+/* Heading */
+
+h2.heading{
+    font-family: Htext;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
