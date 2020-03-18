@@ -1,0 +1,49 @@
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+section div.graphic img{
+  width: 600px;
+}
+
+section div.form{
+  flex-direction: column;
+  text-align: center;
+}
+
+section div.form h2{
+  font-size: 1em;
+  font-family: Ptext;
+  margin-bottom: 15px;
+  color: var(--orange);
+}
+
+section div.form input{
+  padding: 10px 10px;
+  margin: 15px auto;
+  background: none;
+  font-family: Ptext;
+  border: 2px solid var(--blue);
+  border-radius: 8px;
+}
+
+section div.form input[type="button"]{
+  background: var(--blue);
+  color: white;
+  border-radius: 25px;
+  padding: 8px 20px;
+  transition: color 0.5s;
+}
+
+section div.form input[type="button"]:hover{
+  color: var(--orange);
+  cursor: pointer;
+}

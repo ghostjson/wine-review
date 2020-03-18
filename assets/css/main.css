@@ -1,0 +1,67 @@
+/* List of contents
+  1) Reset
+  2) Variables
+  3) Fonts
+  4) Header
+
+ */
+
+/* Reset */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a,a:active, a:hover, a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+/* Variables */
+:root{
+  --blue: #403070;
+  --orange: #fb614a;
+}
+
+/* Fonts */
+@font-face {
+  font-family: Htext;
+  src: url('./../fonts/Rubik/Rubik-Bold.ttf');
+}
+
+@font-face {
+  font-family: Ptext;
+  src: url('./../fonts/Rubik/Rubik-Regular.ttf');
+}
+
+
+/* Header */
+header{
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  line-height: 50px;
+  background: var(--blue);
+}
+
+header div.logo a, header div.logo a:active, header div.logo a:visited{
+  font-size: 2em;
+  font-family: Htext;
+  color: var(--orange);
+}
+
+header div.logo a:hover{
+  color: white;
+}
+
+header div a, header div a:active, header div a:visited{
+  font-size: 1em;
+  font-family: Ptext;
+  font-weight: 600;
+  margin: 0 10px;
+  color: white;
+  transition: color 0.5s;
+}
+
+header div a:hover{
+  color: var(--orange);
+}
