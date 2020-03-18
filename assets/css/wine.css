@@ -1,0 +1,51 @@
+section{
+  font-family: Ptext;
+}
+
+section .reviews, section .star-rating{
+  margin-left: 10px;
+}
+
+h3{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.recent section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section .cards a h2{
+  font-size: 0.8em;
+}
+
+.add-review{
+  margin-left: 10px;
+}
+
+.add-review select{
+  background: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+textarea{
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+}
+
+input[type="button"]{
+  background: var(--blue);
+  color: white;
+  border-radius: 25px;
+  padding: 8px 20px;
+  transition: color 0.5s;
+  border: none;
+}
+
+input[type="button"]:hover{
+  color: var(--orange);
+  cursor: pointer;
+}

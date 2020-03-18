@@ -4,6 +4,8 @@
   3) Fonts
   4) Header
   5) Cards
+  6) Heading
+  7) Special Styling
 
  */
 
@@ -97,7 +99,7 @@ section .card .reviews{
   font-size: 0.8em;
 }
 
-section .card .star-rating{
+.star-rating{
   color: var(--orange);
 }
 
@@ -109,4 +111,9 @@ h2.heading{
     margin-left: 10px;
     font-size: 1.8em;
     margin-bottom: 20px;
+}
+
+/* Special Styling */
+strong{
+  color: var(--orange);
 }
